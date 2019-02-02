@@ -5,9 +5,9 @@ class Select extends Component {
   };
 
   onChange = e => {
-    this.setState({ value: e.target.value }, () => {
-      this.props.onChange(this.state.value);
-    });
+    this.setState({ value: e.target.value });
+    // Passing values up to he parent component
+    this.props.onChange(this.state.value);
   };
 
   render() {
