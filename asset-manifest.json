@@ -1,13 +1,13 @@
 {
   "main.css": "/text-generator/static/css/main.12e3b85f.chunk.css",
-  "main.js": "/text-generator/static/js/main.fc27dcd2.chunk.js",
-  "main.js.map": "/text-generator/static/js/main.fc27dcd2.chunk.js.map",
+  "main.js": "/text-generator/static/js/main.25a24429.chunk.js",
+  "main.js.map": "/text-generator/static/js/main.25a24429.chunk.js.map",
   "static/js/1.b3a89d69.chunk.js": "/text-generator/static/js/1.b3a89d69.chunk.js",
   "static/js/1.b3a89d69.chunk.js.map": "/text-generator/static/js/1.b3a89d69.chunk.js.map",
   "runtime~main.js": "/text-generator/static/js/runtime~main.02237fbf.js",
   "runtime~main.js.map": "/text-generator/static/js/runtime~main.02237fbf.js.map",
   "static/css/main.12e3b85f.chunk.css.map": "/text-generator/static/css/main.12e3b85f.chunk.css.map",
   "index.html": "/text-generator/index.html",
-  "precache-manifest.4e97ab3cc3fa1b6efc40d2fc7d47182a.js": "/text-generator/precache-manifest.4e97ab3cc3fa1b6efc40d2fc7d47182a.js",
+  "precache-manifest.25c3da8cd235fa1001504d1c6e205e6b.js": "/text-generator/precache-manifest.25c3da8cd235fa1001504d1c6e205e6b.js",
   "service-worker.js": "/text-generator/service-worker.js"
 }
