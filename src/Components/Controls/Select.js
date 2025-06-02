@@ -1,25 +1,18 @@
-import React, { Component } from "react";
-class Select extends Component {
-  state = {
-    value: this.props.value
+import React from 'react';
+
+const Select = ({ value, onChange }) => {
+  const handleChange = e => {
+    onChange(e.target.value);
   };
 
-  onChange = e => {
-    this.setState({ value: e.target.value });
-    // Passing values up to he parent component
-    this.props.onChange(this.state.value);
-  };
-
-  render() {
-    return (
-      <div>
-        <select className="form-control" onChange={this.onChange}>
-          <option value="html">Yes</option>
-          <option value="text">No</option>
-        </select>
-      </div>
-    );
-  }
-}
+  return (
+    <div>
+      <select className='form-control' value={value} onChange={handleChange}>
+        <option value='html'>Yes</option>
+        <option value='text'>No</option>
+      </select>
+    </div>
+  );
+};
 
 export default Select;

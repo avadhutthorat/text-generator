@@ -1,27 +1,20 @@
-import React, { Component } from "react";
-class Text extends Component {
-  state = {
-    value: this.props.value
+import React from 'react';
+
+const Text = ({ value, onChange }) => {
+  const handleChange = e => {
+    onChange(Number(e.target.value));
   };
 
-  onChange = e => {
-    this.setState({ value: e.target.value }, () => {
-      this.props.onChange(this.state.value);
-    });
-  };
-
-  render() {
-    return (
-      <div>
-        <input
-          type="number"
-          className="form-control"
-          value={this.state.value}
-          onChange={this.onChange}
-        />
-      </div>
-    );
-  }
-}
+  return (
+    <div>
+      <input
+        type='number'
+        className='form-control'
+        value={value}
+        onChange={handleChange}
+      />
+    </div>
+  );
+};
 
 export default Text;
