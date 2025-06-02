@@ -117,4 +117,4 @@ Project Link: [https://github.com/avadhutthorat/text-generator](https://github.c
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [Avadhut Thorat](https://github.com/avadhutthorat)
