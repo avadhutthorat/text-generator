@@ -115,6 +115,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Project Link: [https://github.com/avadhutthorat/text-generator](https://github.com/avadhutthorat/text-generator)
 
+Live Demo: [https://avadhutthorat.github.io/text-generator/](https://avadhutthorat.github.io/text-generator/)
+
 ---
 
 Made with ❤️ by [Avadhut Thorat](https://github.com/avadhutthorat)
